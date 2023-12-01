@@ -57,7 +57,6 @@
   font-family: 'Roboto Condensed', sans-serif;
   padding:0px;
   line-height: normal;
-  overflow: hidden;
 }
 *,::before,::after {
   box-sizing: border-box;
@@ -327,8 +326,11 @@ width: fit-content;
 .mw1280{
   max-width: 1280px;
 }
-.mw-600{
+.mw-580{
   max-width: 580px;
+}
+.mw-600{
+  max-width: 600px;
 }
 .mw-500{
   max-width: 450px;
@@ -338,6 +340,9 @@ width: fit-content;
 }
 .mw-380{
   max-width: 380px;
+}
+.mw-350{
+  max-width: 350px;
 }
 .mw-320{
   max-width: 320px;
@@ -356,6 +361,12 @@ width: fit-content;
 }
 .mw-120{
   max-width: 120px;
+}
+.mw-52{
+  max-width: 52em;
+}
+.mw-72{
+  max-width: 72em;
 }
 /* maxwidth icon */
 .mw-img-7{
@@ -441,6 +452,9 @@ height: 15%;
 /*Max-height*/
 .mh-740{
   max-height: 740px;
+}
+.h-50{
+  height: 50px;
 }
 /*Dividers*/
 .divid-1{
@@ -617,7 +631,10 @@ place-items: center;
 .mglft-1{
   margin-left: -1em;
 }
-
+.mg-lat-15{
+  margin-left: 15%;
+  margin-right: 15%;
+}
 /* paddings */
 .padding02{
   padding: .2em;
@@ -709,6 +726,9 @@ place-items: center;
 .paddingbot{
   padding-bottom: var(--sz1);
 }
+.pdngbot2{
+  padding-bottom: var(--sz2);
+}
 .pdnbtm2{
   padding-bottom: var(--sz2);
 }
@@ -756,6 +776,9 @@ place-items: center;
 }
 .bot0{
   bottom: 0px;
+}
+.bot-1_25{
+  bottom: -1.5em;
 }
 .top0{
   top: 0px;
@@ -1014,6 +1037,15 @@ progress[value]::-webkit-progress-value {
 }
 
 /* TICKET CSS*/
+
+/*OTROS*/
+.mgt-120{
+  margin-top: 120px;
+}
+.mgb-68{
+  margin-bottom: 68px;
+}
+/*OTROS*/
 /*MEDIA QUERIES*/
 @media screen and (min-height: 800px) {
   .padsup{
