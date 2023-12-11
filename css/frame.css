@@ -43,7 +43,10 @@
   --navbarmobile: 4em; /*Barra de navegación en la parte de Bottom 64px*/
 
   /*medidas*/
+  --sz4: 4em;
+  --sz3: 3em;
   --sz2:2em; /*32px*/
+  --sz1-75: 1.75em;
   --sz1-5:1.5em; /*24px*/
   --sz1-25: 1.25em;
   --sz1: 1em; /*16px*/
@@ -386,6 +389,10 @@ max-width: 7em;
 .mw-ico-3{
   width: 3em;
   height: 3em;
+}
+.mw-ico-4{
+  width: 4em;
+  height: 4em;
 }
 .mw-ico-5{
   width: 5em;
