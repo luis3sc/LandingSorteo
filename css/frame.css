@@ -250,7 +250,7 @@ h3{
 p{
   font-size: var(--p);
 }
-.ftsz-1_5{
+.ftsz-1_5, .fs-1-5{
   font-size: var(--sz1-5);
 }
 
@@ -260,9 +260,10 @@ button,.txtbtn{
 .fs-p-nav-1{
 font-size: .8em;
 }
-.fs-1-5{
-font-size: var(--sz1-5);
+.fs-4{
+  font-size: var(--sz4);
 }
+
 /*font - weight / ancho de fuente */
 .f-delg{
   font-weight: var(--wg-light);
@@ -318,6 +319,9 @@ width: fit-content;
 }
 .w100{
   width: 100%;
+}
+.w90{
+  width: 90%;
 }
 .w50{
   width: 50%;
@@ -425,6 +429,9 @@ height: -webkit-fill-available;
 }
 .h-maxc{
 height: max-content;
+}
+.h-fit{
+  height: fit-content;
 }
 .h100{
 height: 100%;
