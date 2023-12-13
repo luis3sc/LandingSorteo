@@ -420,6 +420,9 @@ max-width: 7em;
 .aspect-1{
 aspect-ratio: 1;
 }
+.aspect-video{
+  aspect-ratio: 1;
+}
 /*Heights*/
 .hinh{
 height: inherit;
@@ -1059,6 +1062,88 @@ progress[value]::-webkit-progress-value {
 .mgb-68{
   margin-bottom: 68px;
 }
+/* FAQ */
+
+/**  PREFGUNTAS FRECUENTES **/
+
+.fa {
+  background-color: violet;
+  color: #1f3389;
+}
+.faqqq{
+    max-width:920px;
+  }
+  .topic{
+    border-radius: 20px;
+    padding-top:0px;
+    padding-bottom:0px;
+    border:solid 2px #727272;
+  }
+  .open{
+    cursor:pointer;
+    padding:0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .open:hover{
+    opacity:0.7;
+  }
+  .expanded{
+    transition: all .3s ease-in-out;
+  }
+  .question{
+    padding-top:20px;
+    padding-right: 40px;
+    padding-bottom:20px;
+    font-size: 18px;
+    font-weight:700;
+    color: #000;
+  }
+  .answer{
+    font-size:16px;
+    line-height:26px;
+    display:none;
+    margin-bottom:30px;
+    text-align:justify;
+    padding-left:20px;
+    padding-right:20px;
+  }
+  .faq-t{
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    display: inline-block;
+    position:relative;
+    right:10px;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border-left: 2px solid var(--principal);
+    border-bottom: 2px solid var(--principal);
+    transition: all .3s ease-in-out;
+  }
+  .faq-o{
+    top: 0px;
+     -moz-transform: rotate(-224deg);
+    -ms-transform: rotate(-224deg);
+    -webkit-transform: rotate(-224deg);
+    transform: rotate(-224deg);
+  }
+  @media only screen and (max-width: 480px) {
+    .faq-t{display:none;}
+    .question{
+    padding-right: 0px;
+  }
+    .answer{
+    margin-bottom:30px;
+    padding-left:0px;
+    padding-right:0px;
+  }
+  }
+/* FAQ */
 /*OTROS*/
 /*MEDIA QUERIES*/
 @media screen and (min-height: 800px) {
