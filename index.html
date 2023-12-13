@@ -76,21 +76,21 @@
                     <h3>Nuestros Premios</h3>
                     <p>Cada me ofrecemos los mejores premios que tenemos para ti</p>
                     <div class="grid mw-72 w100 place-content place-item gap1-5 mgauto mgtp2">
-                        <div class="w100 bg-3 aspect-1">
+                        <div class="w100 bg-3 aspect-1 padsup-1">
                             <div class="w100 padding1">
-                                <img class="w100" src="https://www.tortaza.com.pe/Assets/images/producto/pro_88dc93900568baf089f43508def312a6.webp" alt=""> 
+                                <img class="w100 mw-150"  src="./img/iphone-12-azul.png" alt=""> 
                                 <p>Nombre de La Torta</p>   
                             </div>
                         </div>
-                        <div class="w100 bg-3 aspect-1 ">
+                        <div class="w100 bg-3 aspect-1 padsup-1 ">
                             <div class="w100 padding1">
-                                <img class="w100" src="https://www.tortaza.com.pe/Assets/images/producto/pro_88dc93900568baf089f43508def312a6.webp" alt=""> 
+                                <img class="w100 mw-150" src="./img/iphone-13-pro-max-3.png" alt=""> 
                                 <p>Nombre de La Torta</p>   
                             </div>
                         </div>
-                        <div class="w100 bg-3 aspect-1 d-none-resp">
+                        <div class="w100 bg-3 aspect-1 padsup-1 d-none-resp">
                             <div class="w100 padding1">
-                                <img class="w100" src="https://www.tortaza.com.pe/Assets/images/producto/pro_88dc93900568baf089f43508def312a6.webp" alt=""> 
+                                <img class="w100 mw-150" src="./img/iPhone_14_Pro_Max_Space_Black_Pure_Front.png" alt=""> 
                                 <p>Nombre de La Torta</p>   
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                                 <a class="padding1 border20 bg-1" href="#">Quiero suscribirme</a>
                             </div>
                         </div>
-                        <div class="w100 bg-3 padsup-2">
+                        <div class="w100 bg-3 padsup-2" id="seccion-suscripcion">
                             <div class="w100 padding1 flex-colum gap1 flex-centro">
                                 <div class="flex-spacearound flex-a gap2">
                                     <div>
@@ -196,12 +196,38 @@
                 
             </div>
         </section>
-        <section class="padsup-2 mgauto bg-2">
+        <section class="padsup-2 mgauto bg-3">
             <div class="padhor-1 ">
                 <!-- contenido -->
-                <div class="w100 padding1 border20">
+                <div class="w100 border20 mw-72 mgauto">
                     <!-- contenido Banner -->
                     <p>Visita nuestras redes</p>
+                    <div class="w100 mgauto rel flex-colum gap1 mgtp sombra">
+            
+                        <div class="topic padding1">
+                            <div class="open">
+                              <p class="question">¿Cómo funciona el sorteo mensual?</p>
+                              <span class="faq-t"></span>
+                            </div>
+                            <p class="answer">Nuestro sorteo mensual es sencillo. Al suscribirte, recibirás automáticamente una o más participaciones, dependiendo de tu plan. Durante el sorteo mensual, seleccionamos aleatoriamente a un ganador de entre todos los participantes.</p>
+                          </div>
+                       
+                          <div class="topic padding1">
+                            <div class="open">
+                            <p class="question">¿Cuáles son los premios disponibles?
+                        </p><span class="faq-t"></span>
+                            </div>
+                            <p class="answer">Los premios varían cada mes e incluyen celulares de última generación, motocicletas, automóviles, electrodomésticos y más. Puedes encontrar información detallada sobre los premios actuales en nuestra página principal.</p>
+                          </div>
+                          <div class="topic padding1">
+                            <div class="open">
+                            <p class="question">¿Cómo me suscribo?
+                        </p><span class="faq-t"></span>
+                            </div>
+                            <p class="answer">Es fácil. Visita nuestra sección de <a href="#seccion-suscripcion">suscripción</a>, elige el plan que más te convenga y sigue los pasos para completar el proceso de suscripción. Una vez suscrito, estás automáticamente participando en el próximo sorteo.</p>
+                          </div>
+                       
+                      </div>
                 </div>
             </div>
         </section>
@@ -223,5 +249,28 @@
     <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./js/modal.js"></script>
+    <script>
+        $(".open").click( function () {
+    var container = $(this).parents(".topic");
+    var answer = container.find(".answer");
+    var trigger = container.find(".faq-t");
+    
+    answer.slideToggle(200);
+    
+    if (trigger.hasClass("faq-o")) {
+    trigger.removeClass("faq-o");
+    }
+    else {
+    trigger.addClass("faq-o");
+    }
+    
+    if (container.hasClass("expanded")) {
+    container.removeClass("expanded");
+    }
+    else {
+    container.addClass("expanded");
+    }
+    });
+       </script>
 </body>
 </html>
