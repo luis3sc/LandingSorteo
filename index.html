@@ -31,7 +31,7 @@
             </div>
         </section>
         <section class="padsup-2 flex-c mgauto bg-n rel" alt="sgtSORTEO">
-            <div class="padhor-1 mw-52 mgauto txt-centro ">
+            <div class="padhor-1 pdngbot3 mw-52 mgauto txt-centro ">
                 <!-- contenido -->
                 <div class="w100 pdngbot2 border20 clr-b">
                     <!-- contenido Banner -->
@@ -40,9 +40,34 @@
                    <b> QUE NO SE MERECEN</b>
                 </div>
             </div>
-            <div class="abs flex-c-resp bg-4 mw-580 w90 bot-1_25 gap1 flex-centro padding1">
-                <div>Proxima Edicion</div>
-                <div>Aea</div>
+            <div class="abs flex-c-resp bg-b mw-580 w90 bot-1_25 gap1 flex-centro padding1 border20">
+                <!-- conteo -->
+                        <div class="w100 flex-colum gap-5" id="clockdiv">
+                             <h3 class="time_messege "><b>Próxima Edición En: </b>
+                             </h3>
+                            <div class="flex-centro gap-5">
+                                <div class="bg-1 padding03 border05">
+                                   <div class="smalltext text-capitalize">Días</div>
+                                   <span class="days "></span>
+                                </div>
+                                <div class="bg-2 padding03 border05">
+                                   <div class="smalltext text-capitalize">Horas</div>
+                                   <span class="hours "></span>
+                                </div>
+                                <div class="bg-3 padding03 border05">
+                                   <div class="smalltext text-capitalize ">Min</div>
+                                   <span class="minutes "></span>
+                                </div>
+                                <div class="bg-4 padding03 border05">
+                                   <div class="smalltext text-capitalize ">Seg</div>
+                                   <span class="seconds "></span>
+                                </div>
+                                
+                            </div>
+                            <!-- <div><a href="#" class="footr_buy font_Inter_Black">BUY NOW</a></div> -->
+                        </div>
+              
+              <!-- conteo -->
             </div>
         </section>
         <section class="">
@@ -248,6 +273,7 @@
     <!-- modals -->
     <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/countdown.js"></script>
     <script src="./js/modal.js"></script>
     <script>
         $(".open").click( function () {
