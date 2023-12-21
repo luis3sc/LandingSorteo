@@ -329,6 +329,12 @@ width: fit-content;
 .w100cal-1_5{
   width: calc(100% - var(--sz1-5));
 }
+.w6-25res{
+  width: 6.25em;
+}
+.w14-res{
+  width: 14em;
+}
 /*Maxwidths*/
 .mw1280{
   max-width: 1280px;
@@ -908,6 +914,12 @@ place-items: center;
 /*Rotacion*/
 .rtt-180{
   transform: rotate(180px);
+}
+.z-rt-355{
+  transform: rotateZ(355deg);
+}
+.z-rt-5{
+  transform: rotateZ(5deg);
 }
 /*escalar imagen*/
 .scl1-5{
