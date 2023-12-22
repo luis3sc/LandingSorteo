@@ -332,8 +332,8 @@ width: fit-content;
 .w6-25res{
   width: 6.25em;
 }
-.w14-res{
-  width: 14em;
+.w18-res{
+  max-width: 18em;
 }
 /*Maxwidths*/
 .mw1280{
@@ -346,6 +346,9 @@ width: fit-content;
   max-width: 600px;
 }
 .mw-500{
+  max-width: 450px;
+}
+.mw-450{
   max-width: 450px;
 }
 .mw-420{
@@ -382,8 +385,12 @@ width: fit-content;
   max-width: 72em;
 }
 /* maxwidth icon */
+
 .mw-img-7{
 max-width: 7em;
+}
+.mw-8res{
+max-width: 8em;
 }
 .mw-img-4{
   max-width: 3em;
@@ -600,7 +607,7 @@ grid-template-columns: repeat(auto-fit, minmax(1.5em, 1fr));
 .gap-5{
   gap: var(--sz0-5);
 }
-.gap1{
+.gap1,.gapresp1{
   gap: var(--sz1);
 }
 .gap1-5{
@@ -1257,7 +1264,15 @@ progress[value]::-webkit-progress-value {
   .grid-4-2 {
     grid-template-columns: repeat(auto-fill, minmax(min(15rem,45%), 1fr));
   }
-  
+  .mw-8res{
+    max-width: 10em;
+    }
+  .w18-res{
+    max-width: 22em;
+  }
+  .gapresp1{
+    gap: 3em;
+  }
 }
   
 @media screen and (min-width: 1280px) {
