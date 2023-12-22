@@ -39,7 +39,7 @@
   --desktop: 100vh; /* view height */
   --mobile: 100svh; /* small view height*/
   --esc1920: 75vh;
-  --header: 3em; /* 5em Header */
+  --header: 5em; /* 5em Header */
   --navbarmobile: 4em; /*Barra de navegación en la parte de Bottom 64px*/
 
   /*medidas*/
