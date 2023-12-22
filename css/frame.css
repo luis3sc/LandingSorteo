@@ -22,11 +22,11 @@
   --yape: #be00cf;
 
   /*fontsizes*/
-  --h1: clamp(1.5rem, 1.3846rem + 0.5128vw, 2rem);
-  --h2:  clamp(1.25rem, 1.1346rem + 0.5128vw, 1.75rem);
-  --h3:  clamp(1rem, 0.8846rem + 0.5128vw, 1.5rem);
-  --p:  clamp(0.875rem, 0.7596rem + 0.5128vw, 1.375rem);
-  --txtbtn: clamp(0.75rem, 0.6346rem + 0.5128vw, 1.25rem);
+  --h1: clamp(2.5rem, 1.3846rem + 0.5128vw, 2rem);
+  --h2:  clamp(2.25rem, 1.1346rem + 0.5128vw, 1.75rem);
+  --h3:  clamp(1.5rem, 0.8846rem + 0.5128vw, 1.5rem);
+  --p:  clamp(1.125rem, 0.7596rem + 0.5128vw, 1.375rem);
+  --txtbtn: clamp(0.9rem, 0.6346rem + 0.5128vw, 1.25rem);
   /*fontweight*/
   --wg-light: 200;
   --wg-regular: 400;
