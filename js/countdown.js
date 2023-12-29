@@ -41,7 +41,7 @@ function initializeClock(id, endtime) {
   updateClock();
   const timeinterval = setInterval(updateClock, 1000);
 }
-myStringDate = "25 December 2023 00:00:00";
+myStringDate = "30 December 2023 00:00:00";
 
 const deadline = new Date(myStringDate);
 initializeClock('clockdiv', deadline);
