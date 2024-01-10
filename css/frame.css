@@ -92,6 +92,9 @@ header{
 main,.main-p{
   height: calc( var(--mobile) - var(--navbarmobile) - var(--header)  );
 }
+.main-header{
+  height: calc( 100svh - var(--header) );
+}
 /*Layout*/
 .contenedor-lg{
   width: 100%;
@@ -282,7 +285,7 @@ font-size: .8em;
   text-transform: lowercase;
 }
 /*Parrafos*/
-.txt-centro{
+.txt-centro, .txt-c-l{
   text-align: center;
 }
 .txt-der{
@@ -322,6 +325,9 @@ width: fit-content;
 }
 .w90{
   width: 90%;
+}
+.w80{
+  width: 80%;
 }
 .w50{
   width: 50%;
@@ -483,6 +489,9 @@ height: 15%;
 .mh-740{
   max-height: 740px;
 }
+.mh-12em{
+  max-height: 12em;
+}
 .h-50{
   height: 50px;
 }
@@ -536,6 +545,16 @@ align-items: flex-start;
 }
 .d-resp{
   display: block;
+}
+/* flex para columnas */
+.flex-1{
+  flex: 1;
+}
+.flex-2{
+  flex: 2;
+}
+.flex-4{
+  flex: 4;
 }
 /*Grid*/
 .grid,.grid2,.grid3,.grid3c,.grid3icon,.grid4icon,.grid2c,.grid2colum,.grid-flxc,.grid-3-1,.grid-4-2,.grid-5-2,.gridnav5,.gridbtn2,.grid-loyalty,.grid-boleta-1,.grid-historial-1{
@@ -631,7 +650,7 @@ place-items: center;
 /*GENERALES*/
 /*GENERALES*/
 /* margin */
-.mgauto,.mgn-a{
+.mgauto,.mgn-a,.mgauto-resp{
   margin: 0 auto;
 }
 .mgtp05{
@@ -651,6 +670,9 @@ place-items: center;
 }
 .mgtp3-2{
   margin-top: 1.8em !important;
+}
+.mgtp-4{
+  margin-top: var(--sz4);
 }
 .mgbt1{
   margin-bottom: var(--sz1);
@@ -685,7 +707,9 @@ place-items: center;
 .padhor-1{
   padding: 0 var(--sz1);
 }
-
+.padhor-1-2{
+  padding: var(--sz1) var(--sz2);
+}
 .padlat0-5{
   padding: 0.5em 0.8em !important;
 }
@@ -886,6 +910,9 @@ place-items: center;
 }
 .border2px{
   border: 2px solid;
+}
+.border3px{
+  border: 3px solid;
 }
 .border5px{
   border: 5px solid;
@@ -1093,7 +1120,6 @@ progress[value]::-webkit-progress-value {
     border-radius: 20px;
     padding-top:0px;
     padding-bottom:0px;
-    border:solid 2px #727272;
   }
   .open{
     cursor:pointer;
@@ -1221,8 +1247,6 @@ ion-icon {
 
 .nav-list a {
   display: block;
-  padding: 0 1.5rem;
-  font-size: 1.4rem;
   transition: color 650ms;
 }
 
@@ -1232,15 +1256,12 @@ ion-icon {
 
 .btn {
   height: 3em;
-  background-color: #eb3007;
-  border: 2px solid #eb3007;
-  border-radius: 5rem;
   transition: background-color 650ms;
 }
 
 .btn:hover {
   color: #eb3007;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: var(--verd);
 }
 
 li.move-right {
@@ -1383,6 +1404,12 @@ li.move-right {
   ::-webkit-scrollbar {
     width: 1px;
     height: 4px;
+  }
+  .txt-c-l{
+    text-align: left;
+  }
+  .mgauto-resp{
+  margin: initial;
   }
 }
 @media screen and (min-width: 1024px){
