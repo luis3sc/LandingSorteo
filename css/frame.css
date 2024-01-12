@@ -1504,6 +1504,38 @@ li.move-right {
   .mgauto-resp{
   margin: initial;
   }
+  /*landing*/
+  .mw1080resp{
+    max-width: 470px;
+  }
+  .grid-1920-2{
+    grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+  }
+  .precio-alt{
+    font-size: 1.4em;
+  }
+  .mw-380{
+    max-width: 240px;
+  }
+  /*icono derecho*/
+  .mw-140-resp{
+    max-width: 80px;
+  }
+  .bot3-resp{
+    bottom: var(--sz1);
+  }
+  .lef2-resp{
+    left: -1em;
+  }
+  .mw-80{
+    max-width: 50px;
+  }
+  .right4-resp{
+    right: 0.5em;
+  }
+  .top10-resp{
+    top: 6em;
+  }
 }
 @media screen and (min-width: 1024px){
   .grid-4-2 {
@@ -1524,24 +1556,20 @@ li.move-right {
   .grid-1920-2{
     grid-template-columns: repeat(auto-fill, minmax(19em, 1fr));
   }
-  .mw-380{
-    max-width: 300px;
-  }
-
   .mw-140-resp{
     max-width: 100px;
-  }
-  .bot3-resp{
-    bottom: var(--sz1);
-  }
-  .lef2-resp{
-    left: -1em;
   }
   .right4-resp{
     right: 0em;
   }
   .top10-resp{
     top: 5em;
+  }
+  .precio-alt{
+    font-size: 1.8em;
+  }
+  .mw-80{
+    max-width: 80px;
   }
 }
   
