@@ -253,6 +253,9 @@ h3{
 p{
   font-size: var(--p);
 }
+.ftsz0_9{
+  font-size: .9em;
+}
 .ftsz-1_5, .fs-1-5{
   font-size: var(--sz1-5);
 }
@@ -375,6 +378,9 @@ width: fit-content;
 .mw-320{
   max-width: 320px;
 }
+.mw-270{
+  max-width: 270px;
+}
 .mw-280{
   max-width: 280px;
 }
@@ -383,6 +389,9 @@ width: fit-content;
 }
 .mw-200{
   max-width: 200px;
+}
+.mw-168-resp{
+  max-width: 180px;
 }
 .mw-150{
   max-width: 150px;
@@ -1359,6 +1368,12 @@ li.move-right {
 .img-banner{
   right: 1em;
 }
+/* FORMULARIO FORMULARIO */
+input[type=checkbox]{
+  accent-color: var(--primario);
+  width: 20px;
+  height: 20px;
+}
 /*other*/
 @media screen and (max-width: 850px) {
   .nav-list {
@@ -1536,6 +1551,10 @@ li.move-right {
   .top10-resp{
     top: 6em;
   }
+  /* max-width */
+  .mw-168-resp{
+    max-width: 225px;
+  }
 }
 @media screen and (min-width: 1024px){
   .grid-4-2 {
@@ -1615,6 +1634,9 @@ li.move-right {
   }
   .top10-resp{
     top: 6em;
+  }
+  .mw-168-resp{
+    max-width: 270px;
   }
 }
 @media screen and (min-width: 1536px) {

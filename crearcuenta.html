@@ -76,31 +76,6 @@
         </div>
     </header>
     <main class="main-header flex-row w100">
-        <div class="flex-colum bg-2 flex-2 flex-centro">
-            <div class="p-login w100 flex-a flex-colum">
-                <div class="logo">
-                    <img class="mw-img-7 f-invcolor" src="./img/LOGO.png" alt="">
-                </div>
-                <form class="w80 flex-colum gap1 mgtp" action="">
-                    <div class="flex-colum gap-5">
-                        <label class="clr-b" for="email">Email</label>
-                        <input class="padding1" type="text" placeholder="Ingresa tu e-mail aquí" id="email" autocomplete="email">
-                    </div>
-                    <div class="flex-colum gap-5">
-                        <label class="clr-b" for="email">Contraseña</label>
-                        <input class="padding1" type="password" placeholder="Ingresa tu contraseña aquí" id="password">
-                    </div>
-                    <button type="submit" class="padding1 w100 bg-1 mgtp clr-b">Iniciar Sesión</button>
-                </form>
-                <div class="mgtp2">
-                    <a class="clr-b" href="#">Olvidaste tu contraseña</a>
-                </div>
-                <div class="mgtp clr-b">
-                    o
-                </div>
-                <a href="crearcuenta.html" class="padding1 border1px brdclr-b w50 txt-centro clr-b mgtp">Crea tu cuenta</a>
-            </div>
-        </div>
         <div class="bg-1 flex-4 padding1 flex-colum gap1 flex-centro rel none-resp">
             <h2 class="clr-b">NUESTROS PLANES DE INTERNET</h2>
             <div class="grid-1920-2 mw1080resp gap1 mgauto">
@@ -200,6 +175,37 @@
             <img class="abs lef2-resp bot3-resp mw-140-resp" src="./img/ico-m.webp" alt="">
             <img class="abs top10-resp right4-resp mw-80 zindex0" src="./img/ico-m.webp" alt="">
         </div>
+        <div class="flex-colum bg-2 flex-2 flex-centro">
+            <div class="p-login w100 flex-a flex-colum">
+                <div class="clr-b">
+                    <h1>Crea tu cuenta</h1>
+                </div>
+                <form class="w80 flex-colum gap1 mgtp" action="">
+                    <div class="flex-colum gap-5">
+                        <label class="clr-b" for="email">Email</label>
+                        <input class="padding1" type="text" placeholder="Ingresa tu e-mail aquí" id="email" autocomplete="email">
+                    </div>
+                    <div class="flex-colum gap-5">
+                        <label class="clr-b" for="email">Contraseña</label>
+                        <input class="padding1" type="password" placeholder="Ingresa tu contraseña aquí" id="password">
+                    </div>
+                    <div class="flex-colum gap-5">
+                        <label class="clr-b" for="email">Confirmar tu Contraseña</label>
+                        <input class="padding1" type="password" placeholder="Ingresa tu contraseña aquí" id="password">
+                    </div>
+                    <label class="flex-a gap5 clr-b"><input type="checkbox" id="terms">
+                         Acepto los
+                         <a class="bold clr-1" target="_blank" href="https://tortaza.com.pe/Assets/web/img/terminosycondicionestortaza.pdf"> Términos y Condiciones</a>
+                    </label>
+                    <button type="submit" class="padding1 w100 bg-1 mgtp clr-b">Crear cuenta</button>
+                </form>
+                <div class="mgtp2 flex-colum gap1 flex-centro clr-b">
+                    <p>¿Ya tienes una cuenta?</p>
+                    <a class="clr-1" href="login.html">Iniciar sesión</a>
+                </div>
+                
+            </div>
+        </div>        
     </main>
     <!-- SCRIPTS -->
     <script>
