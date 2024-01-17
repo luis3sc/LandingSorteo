@@ -446,6 +446,9 @@ max-width: 8em;
 .top-5{
   top: -5em;
 }
+.top--1{
+  top: -1em;
+}
 .h-btn{
   height: 3em;
 }
@@ -1615,9 +1618,8 @@ input[type=checkbox]{
   .grid-4-2 {
     grid-template-columns: repeat(auto-fill, minmax(min(16rem,45%), 1fr));
   }
-  .precio-alt{
-    font-size: 1.4em;
-  }  
+  
+  
 }
 @media screen and (min-width: 1440px){
   .mw1080resp{
