@@ -378,7 +378,7 @@ width: fit-content;
 .mw-350{
   max-width: 350px;
 }
-.mw-320{
+.mw-320,.mw-320resp-1{
   max-width: 320px;
 }
 .mw-270{
@@ -402,6 +402,9 @@ width: fit-content;
 .mw-120{
   max-width: 120px;
 }
+.mw-100{
+  max-width: 100px;
+}
 .mw-80{
   max-width: 80px;
 }
@@ -414,7 +417,7 @@ width: fit-content;
 /* maxwidth icon */
 
 .mw-img-7{
-max-width: 7em;
+max-width: 15em;
 }
 .mw-8res{
 max-width: 8em;
@@ -543,7 +546,7 @@ border-radius: .8em .8em 0 0;
 .flex-colum,.flex-c-resp,.flex-colum-r,.flex-colum-row-resp{
   flex-direction: column;
 }
-.flex-row,.flex-colum-row-resp{
+.flex-row{
   flex-direction: row;
 }
 .flex-w{
@@ -1467,8 +1470,11 @@ input[type=checkbox]{
       width: 90%;
       padding: 0;
   }
-  .flex-colum-rev-resp, .flex-colum-row-resp,.grid-flxc{
+  .flex-colum-rev-resp,.grid-flxc{
     flex-direction: column;
+  }
+  .flex-colum-row-resp{
+    flex-direction: row;
   }
   .pdnbtm2{
     padding-bottom: 0em;
@@ -1538,6 +1544,12 @@ input[type=checkbox]{
   .mw-380{
     max-width: 240px;
   }
+  .mw-320resp-1{
+    max-width: 150px;
+  }
+  .mw-100{
+    max-width: 60px;
+  }
   /*icono derecho*/
   .mw-140-resp{
     max-width: 80px;
@@ -1557,6 +1569,9 @@ input[type=checkbox]{
   .top10-resp{
     top: 6em;
   }
+  .mw-img-7{
+    max-width: 7em;
+    }
 }
 @media screen and (min-width: 1024px){
   .grid-4-2 {
