@@ -5,56 +5,49 @@ const services = {
             name: "Lavado Exterior",
             description: "Lavado exterior e interior",
             price: 25,
-            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg",
-            hour: 30,
+            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg"
         },
         {   
             codigo: 2,
             name: "Aspirado Interior ID",
             description: "Lavado con cera y pulido",
             price: 30,
-            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg",
-            hour: 40,
+            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg"
         },
         {
             codigo: 3,    
             name: "Encerado EN",
             description: "Lavado con cera y pulido y detallado",
             price: 35,
-            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg",
-            hour: 30,
+            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg"
         },
         {   
             codigo: 40,
             name: "Aspirado Interior ID",
             description: "Lavado con cera y pulido",
             price: 30,
-            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg",
-            hour: 30,
+            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg"
         },
         {
             codigo: 41,    
             name: "Encerado EN",
             description: "Lavado con cera y pulido y detallado",
             price: 35,
-            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg",
-            hour: 30,
+            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg"
         },
         {   
             codigo: 40,
             name: "Aspirado Interior ID",
             description: "Lavado con cera y pulido",
             price: 30,
-            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg",
-            hour: 30,
+            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg"
         },
         {
             codigo: 41,    
             name: "Encerado EN",
             description: "Lavado con cera y pulido y detallado",
             price: 35,
-            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg",
-            hour: 30,
+            imageURL: "https://cuponassets.cuponatic-latam.com/backendCl/uploads/imagenes_descuentos/317501/c002826d87161791e4a22c287c0a1cf56ac41d81.XL.jpg"
         }
     ],
     Suv: [
@@ -63,24 +56,21 @@ const services = {
             name: "Lavado Básico",
             description: "Lavado exterior e interior",
             price: 20,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         },
         {
             codigo: 5,
             name: "Lavado Premium",
             description: "Lavado con cera y pulido",
             price: 30,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         },
         {
             codigo: 6,
             name: "Lavado Ultra",
             description: "Lavado con cera y pulido y detallado",
             price: 50,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         }
     ],
     Hatchback: [
@@ -89,24 +79,21 @@ const services = {
             name: "Lavado Básico",
             description: "Lavado exterior e interior",
             price: 20,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         },
         {
             codigo: 8,
             name: "Lavado Premium",
             description: "Lavado con cera y pulido",
             price: 30,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         },
         {
             codigo: 9,
             name: "Lavado Ultra",
             description: "Lavado con cera y pulido y detallado",
             price: 50,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         }
     ],
     Pickup: [
@@ -115,24 +102,21 @@ const services = {
             name: "Lavado Básico",
             description: "Lavado exterior e interior",
             price: 20,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         },
         {
             codigo: 11,
             name: "Lavado Premium",
             description: "Lavado con cera y pulido",
             price: 30,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         },
         {
             codigo: 12,
             name: "Lavado Ultra",
             description: "Lavado con cera y pulido y detallado",
             price: 50,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         }
     ],
     Convertible: [
@@ -141,24 +125,21 @@ const services = {
             name: "Lavado Básico",
             description: "Lavado exterior e interior",
             price: 20,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         },
         {
             codigo: 14,
             name: "Lavado Premium",
             description: "Lavado con cera y pulido",
             price: 30,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         },
         {
             codigo: 15,
             name: "Lavado Ultra",
             description: "Lavado con cera y pulido y detallado",
             price: 50,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         }
     ],
     Motocicleta: [
@@ -167,24 +148,21 @@ const services = {
             name: "Lavado Estándar",
             description: "Lavado exterior",
             price: 15,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         },
         {
             codigo: 17,
             name: "Lavado Detallado",
             description: "Lavado con atención a los detalles",
             price: 25,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         },
         {
             codigo: 18,
             name: "Lavado Rapido",
             description: "Lavado rápido",
             price: 10,
-            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp",
-            hour: 30,
+            imageURL: "https://www.tortaza.com.pe/Assets/tienda/images/vitrina/lucuma.webp"
         }
     ]
 };
@@ -289,64 +267,94 @@ paso4SiguienteButton.addEventListener('click', function() {
     pagoResumen();
     nextStep(5);
 });
+
 function updateSummary() {
-    //const vehicleType = document.querySelector('#vehicleType');
     let selectedService = document.querySelector('#serviceType');
     if (vehicleType && selectedService) {
-        //const vehicleTypeValue = vehicleType.value;
-        //const selectedServiceValue = selectedService.value;
-
-        // selectedServiceData = services[vehicleType].find(service => service.name === selectedService.value);
-
-        // localStorage.setItem('selectedService', JSON.stringify({
-        //     name: selectedServiceData.name,
-        //     price: selectedServiceData.price
-        // }));
-
         datosReserva.tipoVehiculo = vehicleType;
         datosReserva.servicio = selectedService.value;
         datosReserva.fechaReserva = document.getElementById('fechaSeleccionada').value;
-        horaReserva = document.querySelector('input[name="time"]:checked').value;//hora radio
+        horaReserva = document.querySelector('input[name="time"]:checked').value;
 
         localStorage.setItem('datosReserva', JSON.stringify(datosReserva));
         subtotal = precioServicio;
-        total = parseFloat(subtotal) + parseFloat(dcomision);    
+        total = parseFloat(subtotal) + parseFloat(dcomision);
 
         const summaryDiv = document.getElementById('summary');
         summaryDiv.innerHTML = `
-        <div class="padsup-1 mgtp brdrbtmdash rel overvis">
-            <label class="f-bold">Detalles de tu Reserva</label>
-            <div class="w100 padsup-1">
-                <p>- Tipo de Vehículo: <b>${vehicleType}</b></p>
-                <p>- Tipo de Servicio: <b>${servicioSelect}</b></p>
-                <p>- Fecha y Hora : <b>${datosReserva.fechaReserva} - ${horaReserva}</b></p>    
-            </div>
-            <div class="abs circ-1 bordercircular bgprinc circ-der"></div>
-            <div class="abs circ-1 bordercircular bgprinc circ-izq"></div>
-        </div>
-        <div class="padsup-1 mgtp"> 
-            <label class="f-bold">Resumen del Servicio</label>
-            <div class="w100 padsup-1">
-                <div class="flex-spacebetween">
-                    <p>${servicioSelect}</p>
-                    <b>s/. ${subtotal}</b>
+            <div class="padsup-1 mgtp brdrbtmdash rel overvis">
+                <label class="f-bold">Detalles de tu Reserva</label>
+                <div class="w100 padsup-1">
+                    <p>- Tipo de Vehículo: <b>${vehicleType}</b></p>
+                    <p>- Tipo de Servicio: <b>${servicioSelect}</b></p>
+                    <p>- Fecha y Hora : <b>${datosReserva.fechaReserva} - ${horaReserva}</b></p>    
                 </div>
-                <div class="flex-spacebetween">
-                    <p>Comisión + IGV</p>
-                    <b>s/. ${dcomision}</b>
-                </div> 
-                <div class="flex-spacebetween flex-a">
-                    <p>Total a Pagar</p>
-                    <b class="f-bold">s/. ${total}</b>
-                </div>    
-            </div>   
-            
-        </div>
-        `; // <p>- Precio del Servicio: <b>${precioServicio}</b></p>
+                <div class="abs circ-1 bordercircular bgprinc circ-der"></div>
+                <div class="abs circ-1 bordercircular bgprinc circ-izq"></div>
+            </div>
+            <div class="padsup-1 mgtp">
+                <div class="flex-r">
+                    <input type="text" id="cuponInput" placeholder="Ingrese su cupón">
+                    <button id="btncupon" onclick="aplicarCupon()">Aplicar</button>
+                </div>
+                <div id="cuponMensaje" class="cupon-mensaje"></div>
+            </div>
+            <div class="padsup-1 mgtp"> 
+                <label class="f-bold">Resumen del Servicio</label>
+                <div class="w100 padsup-1">
+                    <div class="flex-spacebetween">
+                        <p>${servicioSelect}</p>
+                        <b>s/. ${subtotal}</b>
+                    </div>
+                    <div class="flex-spacebetween">
+                        <p>Comisión + IGV</p>
+                        <b>s/. ${dcomision}</b>
+                    </div> 
+                    <div class="flex-spacebetween flex-a">
+                        <p>Total a Pagar</p>
+                        <b class="f-bold" id="totalPagar">s/. ${total}</b>
+                    </div>    
+                </div>   
+            </div>
+        `; 
     } else {
         console.error('Por favor, selecciona un tipo de vehículo y servicio.');
     }
 }
+// Función para aplicar el cupón
+function aplicarCupon() {
+    const cuponInput = document.getElementById('cuponInput');
+    const cuponMensaje = document.getElementById('cuponMensaje');
+    const btncupon = document.getElementById('btncupon');
+    const totalPagar = document.getElementById('totalPagar');
+    const cuponCodigos = ["HOLA","Carwash","Bienvenido","Welcome", "Vliink"];
+    const cuponDescuentos = [5, 8, 10, 12, 15]; // Descuentos en porcentaje
+
+    const cuponIngresado = cuponInput.value.toUpperCase();
+
+    // Verificar si el cupón es válido
+    const cuponIndex = cuponCodigos.indexOf(cuponIngresado);
+    if (cuponIndex !== -1) {
+        const descuento = cuponDescuentos[cuponIndex];
+        const descuentoAplicado = (descuento / 100) * total;
+        total -= descuentoAplicado;
+
+        // Mostrar mensaje de cupón válido y deshabilitar el input
+        cuponMensaje.textContent = `Cupón aplicado: ${descuento}% de descuento. Total actualizado: s/. ${total.toFixed(2)}`;
+        cuponInput.disabled = true;
+        btncupon.disabled = true;
+
+        // Actualizar el contenido del monto total
+        
+        totalPagar.textContent = `s/. ${total.toFixed(2)}`;
+    } else {
+        // Mostrar mensaje de cupón no válido
+        cuponMensaje.textContent = 'Cupón no válido. Intente con otro código.';
+    }
+}
+
+// Añadir evento al botón de aplicar cupón
+document.querySelector('button[onclick="aplicarCupon()"]').addEventListener('click', aplicarCupon);
 
 function nextStep(nextStep) {
     showStep(nextStep);
